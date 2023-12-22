@@ -1,0 +1,284 @@
+/* 22-12-23 */
+/* .woocommerce-account ---> parent class */
+/* #001f6d parent color  */
+/* my-account before login start */
+.woocommerce-account .woocommerce form .form-row label, .woocommerce-account .woocommerce-page form .form-row label{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111111;
+    font-family: HK Grotesk;
+  }
+  
+  .woocommerce-account .woocommerce form .form-row input.input-text, .woocommerce-account .woocommerce form .form-row textarea, .woocommerce-account  .woocommerce form .form-row select{
+    display: block;
+      width: 100%;
+      padding: 0.75rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0rem;
+  }
+  .woocommerce-account .woocommerce form .form-row input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+  }
+  .woocommerce-account .u-column1 h2, .woocommerce-account .u-column2 h2{
+    color: #111;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 35px;
+      font-family: HK Grotesk;
+  
+  }
+  .woocommerce-account .woocommerce form.checkout_coupon, .woocommerce-account .woocommerce form.login, .woocommerce form.register{
+    border: 1px solid #ced4da;
+      border-radius: 0;
+  }
+  .woocommerce-account .woocommerce form.register p{
+    color: #111;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      font-family: HK Grotesk;
+  }
+   .woocommerce-account
+  .woocommerce .woocommerce-form-login .woocommerce-form-login__submit, .woocommerce-account .woocommerce form .form-row button[type="submit"],  .woocommerce-account  .woocommerce-info .button, .woocommerce-account .woocommerce button.button{
+    border-radius: 6px;
+      background: #001f6d;
+      box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0);
+      outline: none;
+      border: none;
+      color: #fff;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 12px 50px;
+      /* margin: auto; */
+      border: 1px solid transparent;
+      transition: 0.5s;
+  }
+   .woocommerce-account .woocommerce .woocommerce-form-login .woocommerce-form-login__submit:hover, .woocommerce-account .woocommerce form .form-row button[type="submit"]:hover, .woocommerce-account  .woocommerce-info .button:hover, .woocommerce-account .woocommerce button.button:hover{
+    background-color: transparent;
+      border: 1px solid #001f6d;
+      color: #001f6d;
+      transition: 0.5s;
+  }
+  .woocommerce-account .woocommerce form .form-row label.woocommerce-form-login__rememberme{
+    margin: 10px 0;
+  }
+  .woocommerce-account .woocommerce-privacy-policy-text{
+    margin-bottom: 6px;
+  }
+  .woocommerce-account  .woocommerce-LostPassword a{
+    text-decoration: none;
+    color: #111;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: HK Grotesk;
+  }
+  .woocommerce-account .woocommerce-LostPassword a:hover{
+    text-decoration: underline;
+  }
+  /* my-account before login end */
+  
+  /* my-account after login start */
+  .woocommerce-account li.woocommerce-MyAccount-navigation-link.is-active {
+    border: 1px solid #ced4da;
+    background: #001f6d;
+    border-bottom: 0;
+  }
+  
+  .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a {
+    color: #fff;
+  }
+  
+  .woocommerce-account li.woocommerce-MyAccount-navigation-link {
+    border: 1px solid #ced4da;
+    background: #FFF;
+    border-bottom: 0;
+    padding: 15px 5px;
+  }
+  
+  .woocommerce-account li.woocommerce-MyAccount-navigation-link:last-child {
+    border-bottom: 1px solid #ced4da;
+  }
+  
+  .woocommerce-account .woocommerce-MyAccount-navigation ul {
+    box-shadow: 0px 4px 26px rgba(7.03, 20.26, 24.44, 0.06);
+    border-radius: 2px;
+    margin-right: 30px;
+  }
+  
+  .woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+    color: #111;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "HK Grotesk";
+    padding: 13px 18% 13px 13px;
+  }
+  
+  .woocommerce-account .woocommerce {
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .woocommerce-account .woocommerce-MyAccount-content {
+    /* Fallback for older browsers */
+    box-shadow: 0px 4px 26px rgba(7, 20, 24, 20%);
+    /* Vendor prefixes for broader compatibility */
+    -webkit-box-shadow: 0px 4px 26px rgba(7, 20, 24, 20%);
+    -moz-box-shadow: 0px 4px 26px rgba(7, 20, 24, 20%);
+    -ms-box-shadow: 0px 4px 26px rgba(7, 20, 24, 20%);
+    -o-box-shadow: 0px 4px 26px rgba(7, 20, 24, 20%);
+  
+    border-radius: 2px;
+    padding: 15px 15px 25px;
+    margin-right: 66px;
+  }
+  /* 20/07/23 woocommerce-privacy */
+  
+  .Privacy,
+  .Term {
+      margin-bottom: 30px;
+      margin-top: 30px;
+  }
+  
+  .woocommerce-account .Privacy h2, .woocommerce-account .Term h3, .woocommerce-account legend {
+      color: #1A2227 !important;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 2.2px;
+      text-transform: capitalize;
+      margin-bottom: 0px;
+      text-decoration: none;
+    font-family: "HK Grotesk";
+  }
+  .woocommerce-account legend {
+    margin-top: 22px;
+    font-weight: 600;
+  }
+  .woocommerce-account p {
+      margin-bottom: 0px;
+      margin-top: 0px;
+  }
+  
+  .woocommerce-account .Term li a,
+  p a {
+      color: #1A2227 !important;
+  }
+  
+  .woocommerce-account strong {
+      text-decoration: underline;
+  }
+  
+  .woocommerce-account .Term,
+  .Privacy {
+      background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+  }
+  
+  .woocommerce-account .Term ul {
+      margin-top: 0;
+      margin-left: 30px;
+  }
+  
+  .woocommerce-account .Term ul li {
+      list-style: disc !important;
+  }
+  
+  .woocommerce-account .Term ul li::marker {
+      color: #FCB800 !important;
+  }
+  
+  .woocommerce-account .Term p a {
+      font-weight: bold !important;
+      text-decoration: underline !important;
+  }
+  .woocommerce-account .woocommerce-info {
+    border-top-color: #001f6d;
+  }
+  /* my-account address */
+  .woocommerce-account.woocommerce-edit-address
+    .woocommerce-MyAccount-content
+    .woocommerce-notices-wrapper
+    + p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      color: #111;
+      font-family: "HK Grotesk";
+  }
+  .woocommerce-account.woocommerce-edit-address .u-column2 {
+    margin-top: 0;
+  }
+  .woocommerce-account.woocommerce-edit-address .woocommerce-Address-title h3{
+    color: #111;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px;
+    font-family: "HK Grotesk";
+  }
+  .woocommerce-account.woocommerce-edit-address .woocommerce-Address{
+    border: 1px solid #ced4da;
+      padding: 10px;
+  }
+  .woocommerce-account.woocommerce-edit-address .woocommerce form h3{
+    color: #111;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    margin-bottom: 13px;
+    font-family: "HK Grotesk";
+  }
+  
+  /* .woocommerce-account .term_sec */
+  @media only screen and (max-width: 767px){
+    /* my-account */
+    .woocommerce-account .u-column1 form.login {
+      margin-right: 10px;
+    }
+    .woocommerce-account .u-column2 form.register {
+      margin-left: 10px;
+    }
+    /* address page */
+    .woocommerce-account.woocommerce-edit-address .woocommerce-Address:last-child{
+      margin-top: 20px;
+    }
+    .woocommerce-account .woocommerce form .form-row-first,   .woocommerce-account .woocommerce form .form-row-last,   .woocommerce-account form .form-row-first,   .woocommerce-account form .form-row-last{
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 576px){
+    .woocommerce-account  .woocommerce {
+      flex-direction: column;
+      position: relative;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content{
+    margin-top: 20px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-navigation ul {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  .woocommerce-account .entry-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  }
